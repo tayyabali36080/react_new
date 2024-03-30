@@ -1,0 +1,61 @@
+
+  div.intt div.mann{
+    width: 30%;
+    height: 60vh;
+    position: absolute;
+    top: 200%;
+    left:35%
+  }
+  div.intt div.mann:hover{
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.3);
+    transition: all 0.4s ease-in-out;
+  
+  }
+  div.intt div.mann h4{
+    font-family:   "Madimi One", sans-serif;
+    margin-left: 3px;
+    margin-bottom: 40px;
+  }
+  div.intt h4:before{
+    position: absolute;
+    content: '';
+    width: 70%;
+   padding: 20px;
+  transform: scaleX(0);
+  border-bottom:5px solid red;
+  transform-origin: right;
+  transition: transform .4s linear;
+  }
+  div.intt h4:hover:before{
+  
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform .4s linear;
+  }
+  
+  div.medii,div.lass img{
+    float: left;
+  }
+  div.medii,div.lass a{
+  font-weight: 400;
+  line-height: 32px;
+  }
+  div.medii,div.lass a:hover{
+    color: rgba(255,0,0,0.5);
+    }
+    div.medii{
+      margin-bottom: 20px;
+    }
+    div.medii img{
+      float: left;
+    }
+    div.medii a{
+    font-weight: 400;
+    line-height: 32px;
+    }
+    div.medii a:hover{
+      color: rgba(255,0,0,0.5);
+      }
+  
+  
+    

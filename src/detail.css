@@ -1,0 +1,30 @@
+div.copnten{
+    
+    height: 50vh;
+}
+ul li h5{
+    margin-top: 10%;
+    
+}
+div.detail h4{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: bolder;
+}
+div.detail h4:before{
+    position: absolute;
+    content:'';
+    border-bottom:5px solid red;
+    width: 10%;
+    padding: 20px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s linear;
+}
+div.detail h4:hover:before{
+   
+  
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.4s linear;
+}

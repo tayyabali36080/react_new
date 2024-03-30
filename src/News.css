@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h2{
+    margin-left: 10px;
+    font-family: "Madimi One", sans-serif;
+    margin-bottom: 40px;
+ text-align: center;
+ margin-top: 20px;
+  }
+ h2:before{
+    position: absolute;
+    content: '';
+    width: 31%;
+   padding: 20px;
+   margin-top: 10px;
+transform: scaleX(0);
+border-bottom:5px solid red;
+transform-origin: right;
+transition: transform .4s linear;
+  }
+h2:hover:before{
+
+transform: scaleX(1);
+transform-origin: left;
+transition: transform .4s linear;
+  }
+  div.faqs h3{
+background: oldlace;
+padding: 10px;
+font-family: "Madimi One", sans-serif;
+cursor: pointer;
+      }
+      div.faqs p{
+
+padding: 10px;
+
+transform: scaleY(0);
+transition-duration: 0.5s;
+
+      }
+      div.faq h3{
+        background: oldlace;
+        padding: 10px;
+        font-family: "Madimi One", sans-serif;
+      
+              }
+              div.faq p{
+          
+          transform: scaleY(1);
+                transition-duration: 0.5s;
+                      }

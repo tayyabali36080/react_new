@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+div.manag {
+display: flex;
+
+}
+div.manag div.para{
+ letter-spacing: 1px;
+ line-height: 40px;
+ width: 50%;
+ margin-left: 50px;
+ text-align: justify;
+
+    }

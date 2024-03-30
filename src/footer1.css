@@ -1,0 +1,25 @@
+*{
+    border:0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    div.footer1{
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(255,0,0,1),rgba(255,0,0,0.9)); 
+    float: inline-start;
+    height: 100px;
+    font-weight: bolder;
+    color:white;
+    position: absolute;
+    top: 1700px;
+    padding: 10px;
+    }
+    div.footer1 p{
+       
+    }
+    div.footer2{
+        
+    }
+    div.footer2 FontAwesomeIcon:hover{
+        color: black;
+    }

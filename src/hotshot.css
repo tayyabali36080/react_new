@@ -1,0 +1,130 @@
+div.hotshot h3{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    
+}
+div.hotshot hr{
+    border:3px solid black;
+    width: 80px;
+    margin-left: 46.5%;
+}
+div.hotshots{
+    width: 30%;
+    height: 60vh;
+ float: left;
+   
+}
+div.hotshots:hover{
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.3);
+    transition: all 0.4s ease-in-out;
+}
+
+div.hotshot h3:before{
+    position: absolute;
+    content: '';
+    width: 10%;
+   padding: 20px;
+transform: scaleX(0);
+border-bottom:5px solid red;
+transform-origin: right;
+transition: transform .4s linear;
+  }
+  div.hotshot h3:hover:before{
+
+transform: scaleX(1);
+transform-origin: left;
+transition: transform .4s linear;
+  }
+  
+  div.hotshots h4{
+    margin-left: 10px;
+    font-family: "Madimi One", sans-serif;
+    margin-bottom: 40px;
+  }
+  div.hotshots h4:before{
+    position: absolute;
+    content: '';
+    width: 20%;
+   padding: 20px;
+transform: scaleX(0);
+border-bottom:5px solid red;
+transform-origin: right;
+transition: transform .4s linear;
+  }
+  div.hotshots h4:hover:before{
+
+transform: scaleX(1);
+transform-origin: left;
+transition: transform .4s linear;
+  }
+  div.middle{
+    margin-bottom: 80px;
+  }
+  div.middle img{
+    float: left;
+  }
+   div.middle a{
+  font-weight: 400;
+  line-height: 32px;
+  }
+  div.middle a:hover{
+    color: rgba(255,0,0,0.5);
+    }
+  
+
+    div.hotshots div.next img{
+      float: left;
+    }
+    div.hotshots  div.next a{
+    font-weight: 400;
+    line-height: 32px;
+    }
+    div.hotshots div.next a:hover{
+      color: rgba(255,0,0,0.5);
+      }
+    div.manage{
+      width: 65%;
+   
+      height: 60vh;
+      position: absolute;
+      right: 13px;
+    }
+  
+
+
+    div.manage h4{
+      margin-left: 10px;
+      font-family: "Madimi One", sans-serif;
+      margin-bottom: 40px;
+    }
+    div.manage h4:before{
+      position: absolute;
+      content: '';
+      width: 30%;
+     padding: 20px;
+  transform: scaleX(0);
+  border-bottom:5px solid red;
+  transform-origin: right;
+  transition: transform .4s linear;
+    }
+    div.manage h4:hover:before{
+  
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform .4s linear;
+    }
+    div.manage iframe{
+      float: left;
+    }
+    div.manage p{
+      padding-left:370px;
+      text-align: justify;
+      line-height: 32px;
+    }
+    div.manage a:hover{
+      color: rgba(255,0,0,0.5);
+    }
+    div.manage:hover{
+      box-shadow: 10px 5px 5px rgba(0,0,0,0.3);
+      transition: 0.5s;
+    }

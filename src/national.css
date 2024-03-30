@@ -1,0 +1,60 @@
+div.inttt div.mannn{
+    width: 30%;
+    height: 60vh;
+    position: absolute;
+    top: 200%;
+    left:68.5%
+  }
+  div.inttt div.mannn:hover{
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.3);
+    transition: all 0.4s ease-in-out;
+  
+  }
+  div.inttt div.mannn h4{
+    font-family:   "Madimi One", sans-serif;
+    margin-left: 3px;
+    margin-bottom: 40px;
+  }
+  div.inttt h4:before{
+    position: absolute;
+    content: '';
+    width: 70%;
+   padding: 20px;
+  transform: scaleX(0);
+  border-bottom:5px solid red;
+  transform-origin: right;
+  transition: transform .4s linear;
+  }
+  div.inttt h4:hover:before{
+  
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform .4s linear;
+  }
+  
+  div.mediii,div.lasss img{
+    float: left;
+  }
+  div.mediii,div.lasss a{
+  font-weight: 400;
+  line-height: 32px;
+  }
+  div.mediii,div.lasss a:hover{
+    color: rgba(255,0,0,0.5);
+    }
+    div.mediii{
+      margin-bottom: 20px;
+    }
+    div.mediii img{
+      float: left;
+    }
+    div.mediii a{
+    font-weight: 400;
+    line-height: 32px;
+    }
+    div.mediii a:hover{
+      color: rgba(255,0,0,0.5);
+      }
+  
+  
+    
